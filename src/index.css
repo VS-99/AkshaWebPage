@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .btn-gradient{
+        @apply bg-gradient-to-b from-[#517bda] to-[#304880]
+    }
+    .hide-scrollbar::-webkit-scrollbar{
+        @apply hidden
+    }
+}
